@@ -1,4 +1,4 @@
-import User from '../models/User.model'
+import User from '@/models/User.model'
 import mongoose from 'mongoose';
 import { Types } from 'mongoose'
 
