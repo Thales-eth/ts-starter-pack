@@ -1,9 +1,9 @@
-import { Router } from "express";
-const router = Router();
-import userRoutes from './user.routes'
-import authRoutes from './auth.routes'
+import { Router } from "express"
+import salesforceRoutes from "./salesforce.routes"
+import nodemailerRoutes from "./nodemailer.routes"
+const router = Router()
 
-router.use("/users", userRoutes);
-router.use("/auth", authRoutes)
+router.use("/salesforce", salesforceRoutes)
+router.use("/nodemailer", nodemailerRoutes)
 
 export default router
