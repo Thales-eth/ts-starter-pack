@@ -12,7 +12,7 @@ export const sendNodemailerMail = (
     const mailOptions = {
       from: "nodemailer.tailor.test@gmail.com",
       to: email,
-      subject: "Figma Plugin Test",
+      subject: `Figma Plugin Test V.0 ${name}`,
       html,
     }
 
